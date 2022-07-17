@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Mobile Garage </title>
+		<meta name="description" content="Blueprint: A basic responsive product grid layout with comparison functionality" />
+		<meta name="keywords" content="blueprint, template, html, css, javascript, grid, layout, effect, product comparison" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<!-- Modernizr is used for flexbox fallback -->
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<!-- Compare basket -->
+		<div class="compare-basket">
+			<button class="action action--button action--compare"><i class="fa fa-check"></i><span class="action__text">Compare</span></button>
+		</div>
+		<!-- Main view -->
+		<div class="view">
+			<!-- Blueprint header -->
+			<header class="bp-header cf">
+				<span>Mobile Garage <span class="bp-icon bp-icon-about" data-content="Find best smartphones."></span></span>
+				<h1>Find Latest & Best smartphones </h1>
+				<nav>
+					<a href="/index.html" class="bp-icon bp-icon-prev" data-info="Return"><span>Previous Blueprint</span></a>
+					<!--a href="" class="bp-icon bp-icon-next" data-info="next Blueprint"><span>Next Blueprint</span></a-->
+					<a href="/compare/features.html" class="bp-icon bp-icon-drop" data-info="Features"><span>back to the Codrops article</span></a>
+					<a href="/Accessories/Accessories.html" class="bp-icon bp-icon-archive" data-info="Accessories"><span>Go to the archive</span></a>
+				</nav>
+			</header>
+			<!-- Product grid -->
+			<section class="grid">
+				<!-- Products -->
+				<div class="product">
+					<div class="product__info">
+						<img class="product__image" src="/Images/fold3.png" alt="Product 1" />
+						<h3 class="product__title">Samsung galaxy z Fold 3</h3>
+						<span class="product__year extra highlight">Camera - Rear 12+12+12 | Front 16 + 10 MP</span>
+						<span class="product__region extra highlight">Display - 7.6 inch</span>
+						<span class="product__varietal extra highlight">Processor - Octa</span>
+						<span class="product__alcohol extra highlight">Battery - 4400 mAH</span>
+						<span class="product__alcohol extra highlight">Ram - 12gb</span>
+						<span class="product__price highlight">Rs. 1,49,999 </span>
+						
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				</div>
+								<div class="product">
+					<div class="product__info">
+						<img class="product__image" src="/Images/flip3.png" alt="Product 1" />
+						<h3 class="product__title">Samsung galaxy z Flip 3</h3>
+						<span class="product__year extra highlight">Camera - Rear 12 + 12 | Front  10 MP</span>
+						<span class="product__region extra highlight">Display - 7.6 inch</span>
+						<span class="product__varietal extra highlight">Processor - Octa</span>
+						<span class="product__alcohol extra highlight">Battery - 4400 mAH</span>
+						<span class="product__alcohol extra highlight">Ram - 12gb</span>
+						<span class="product__price highlight">Rs. 84999 </span>
+						
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				</div>
+				
+								<div class="product">
+    				<div class="product__info">
+						<img class="product__image" src="/Images/MI11Ultra.png" alt="Product 1" />
+						<h3 class="product__title">Xiaomi 11 Ultra</h3>
+						<span class="product__year extra highlight">Camera - Rear 50 + 48 + 12 | Front  20 MP</span>
+						<span class="product__region extra highlight">Display - 6.80 inch</span>
+						<span class="product__varietal extra highlight">Processor - Octa</span>
+						<span class="product__alcohol extra highlight">Battery - 5000 mAH</span>
+						<span class="product__alcohol extra highlight">Ram - 12gb</span>
+						<span class="product__price highlight">Rs. 69999 </span>
+	
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				</div>
+
+								<div class="product">
+    				<div class="product__info">
+						<img class="product__image" src="/Images/realmegt.png" alt="Product 1" />
+						<h3 class="product__title">Realme GT</h3>
+						<span class="product__year extra highlight">Camera - Rear 64 + 8 + 2 | Front  16 MP</span>
+						<span class="product__region extra highlight">Display - 6.43 inch</span>
+						<span class="product__varietal extra highlight">Processor - Octa</span>
+						<span class="product__alcohol extra highlight">Battery - 5000 mAH</span>
+						<span class="product__alcohol extra highlight">Ram - 8gb</span>
+						<span class="product__price highlight">Rs. 37999 </span>
+	
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				</div>
+
+								<div class="product">
+    				<div class="product__info">
+						<img class="product__image" src="/Images/SamsungGalaxyS21FE.png" alt="Product 1" />
+						<h3 class="product__title">Galaxy S21 FE</h3>
+						<span class="product__year extra highlight">Camera - Rear 12 + 8 + 12 | Front  31 MP</span>
+						<span class="product__region extra highlight">Display - 6.41 inch</span>
+						<span class="product__varietal extra highlight">Processor - Octa</span>
+						<span class="product__alcohol extra highlight">Battery - 4500 mAH</span>
+						<span class="product__alcohol extra highlight">Ram - 8gb</span>
+						<span class="product__price highlight">Rs. 54999 </span>
+	
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				</div>
+
+								<div class="product">
+    				<div class="product__info">
+						<img class="product__image" src="/Images/OnePlus9pro.png" alt="Product 1" />
+						<h3 class="product__title">OnePlus9pro</h3>
+						<span class="product__year extra highlight">Camera - Rear 48 + 8 + 50 + 2 | Front  16 MP</span>
+						<span class="product__region extra highlight">Display - 6.7 inch</span>
+						<span class="product__varietal extra highlight">Processor - Octa</span>
+						<span class="product__alcohol extra highlight">Battery - 4500 mAH</span>
+						<span class="product__alcohol extra highlight">Ram - 12gb</span>
+						<span class="product__price highlight">Rs. 64999 </span>
+	
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				</div>
+				
+				<div class="product">
+    				<div class="product__info">
+						<img class="product__image" src="/Images/AsusRogPhone5.png" alt="Product 1" />
+						<h3 class="product__title">Asus Rog 5</h3>
+						<span class="product__year extra highlight">Camera - Rear 64 + 13 + 5  | Front  24 MP</span>
+						<span class="product__region extra highlight">Display - 6.78 inch</span>
+						<span class="product__varietal extra highlight">Processor - Octa</span>
+						<span class="product__alcohol extra highlight">Battery - 6000 mAH</span>
+						<span class="product__alcohol extra highlight">Ram - 12gb</span>
+						<span class="product__price highlight">Rs. 49999 </span>
+	
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				</div>
+				
+				<div class="product">
+    				<div class="product__info">
+						<img class="product__image" src="/Images/VivoX70Pro.png" alt="Product 1" />
+						<h3 class="product__title">VivoX 70Pro+</h3>
+						<span class="product__year extra highlight">Camera - Rear 50 + 48 + 12 + 8  | Front  32 MP</span>
+						<span class="product__region extra highlight">Display - 6.78 inch</span>
+						<span class="product__varietal extra highlight">Processor - Octa</span>
+						<span class="product__alcohol extra highlight">Battery - 4500 mAH</span>
+						<span class="product__alcohol extra highlight">Ram - 8gb</span>
+						<span class="product__price highlight">Rs. 79990 </span>
+	
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				</div>
+
+				<div class="product">
+    				<div class="product__info">
+						<img class="product__image" src="/Images/IQOO7.png" alt="Product 1" />
+						<h3 class="product__title">IQOO7 </h3>
+						<span class="product__year extra highlight">Camera - Rear  48 + 13 + 2  | Front  16 MP</span>
+						<span class="product__region extra highlight">Display - 6.62 inch</span>
+						<span class="product__varietal extra highlight">Processor - Octa</span>
+						<span class="product__alcohol extra highlight">Battery - 4400 mAH</span>
+						<span class="product__alcohol extra highlight">Ram - 8gb</span>
+						<span class="product__price highlight">Rs. 29990 </span>
+	
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				</div>
+				
+				<div class="product">
+    				<div class="product__info">
+						<img class="product__image" src="/Images/PocoC31.png" alt="Product 1" />
+						<h3 class="product__title"> Poco C31  </h3>
+						<span class="product__year extra highlight">Camera - Rear  13 + 2 + 2  | Front  5 MP</span>
+						<span class="product__region extra highlight">Display - 6.53 inch</span>
+						<span class="product__varietal extra highlight">Processor - Octa</span>
+						<span class="product__alcohol extra highlight">Battery - 5000 mAH</span>
+						<span class="product__alcohol extra highlight">Ram - 4gb</span>
+						<span class="product__price highlight">Rs. 9499 </span>
+	
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				</div>
+
+				<div class="product">
+    				<div class="product__info">
+						<img class="product__image" src="/Images/Iphone13pro.png" alt="Product 1" />
+						<h3 class="product__title"> Iphone 13pro  </h3>
+						<span class="product__year extra highlight">Camera - Rear  12 + 12 + 12  | Front  12 MP</span>
+						<span class="product__region extra highlight">Display - 6.7 inch</span>
+						<span class="product__varietal extra highlight">Processor - ios</span>
+						<span class="product__alcohol extra highlight">Battery - 4353 mAH</span>
+						<span class="product__alcohol extra highlight">Ram - 6gb</span>
+						<span class="product__price highlight">Rs. 129990 </span>
+	
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				</div>			
+				
+				<div class="product">
+    				<div class="product__info">
+						<img class="product__image" src="/Images/Iphone13.png" alt="Product 1" />
+						<h3 class="product__title"> Iphone 13  </h3>
+						<span class="product__year extra highlight">Camera - Rear  12 + 12  | Front  12 MP</span>
+						<span class="product__region extra highlight">Display - 6.1 inch</span>
+						<span class="product__varietal extra highlight">Processor - ios</span>
+						<span class="product__alcohol extra highlight">Battery - 3227 mAH</span>
+						<span class="product__alcohol extra highlight">Ram - 4gb</span>
+						<span class="product__price highlight">Rs. 74990 </span>
+	
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				</div>
+					
+				<div class="product">
+    				<div class="product__info">
+						<img class="product__image" src="/Images/Iphone13mini.png" alt="Product 1" />
+						<h3 class="product__title"> Iphone 13 Mini </h3>
+						<span class="product__year extra highlight">Camera - Rear  12 + 12  | Front  12 MP</span>
+						<span class="product__region extra highlight">Display - 5.4 inch</span>
+						<span class="product__varietal extra highlight">Processor - ios</span>
+						<span class="product__alcohol extra highlight">Battery - 2409 mAH</span>
+						<span class="product__alcohol extra highlight">Ram - 4gb</span>
+						<span class="product__price highlight">Rs. 69990 </span>
+	
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				</div>
+
+				<div class="product">
+    				<div class="product__info">
+						<img class="product__image" src="/Images/Iphone13.png" alt="Product 1" />
+						<h3 class="product__title"> Iphone 13  </h3>
+						<span class="product__year extra highlight">Camera - Rear  12 + 12  | Front  12 MP</span>
+						<span class="product__region extra highlight">Display - 6.1 inch</span>
+						<span class="product__varietal extra highlight">Processor - ios</span>
+						<span class="product__alcohol extra highlight">Battery - 3227 mAH</span>
+						<span class="product__alcohol extra highlight">Ram - 4gb</span>
+						<span class="product__price highlight">Rs. 74990 </span>
+	
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				
+				</div>
+				
+				<div class="product">
+    				<div class="product__info">
+						<img class="product__image" src="/Images/Iphone12promax.png" alt="Product 1" />
+						<h3 class="product__title"> Iphone 12 pro max  </h3>
+						<span class="product__year extra highlight">Camera - Rear  12 + 12 + 12  | Front  12 MP</span>
+						<span class="product__region extra highlight">Display - 6.9 inch</span>
+						<span class="product__varietal extra highlight">Processor - ios</span>
+						<span class="product__alcohol extra highlight">Battery - 3687 mAH</span>
+						<span class="product__alcohol extra highlight">Ram - 6gb</span>
+						<span class="product__price highlight">Rs. 119990 </span>
+	
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				</div>
+
+			      <div class="product">
+				<div class="product__info">
+					<img class="product__image" src="/Images/Iphone12pro.png" alt="Product 1" />
+					<h3 class="product__title"> Iphone 12 pro   </h3>
+					<span class="product__year extra highlight">Camera - Rear  12 + 12 + 12  | Front  12 MP</span>
+					<span class="product__region extra highlight">Display - 6.7 inch</span>
+					<span class="product__varietal extra highlight">Processor - ios</span>
+					<span class="product__alcohol extra highlight">Battery - 2815 mAH</span>
+					<span class="product__alcohol extra highlight">Ram - 6gb</span>
+					<span class="product__price highlight">Rs. 109000 </span>
+
+				</div>
+				<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+			</div>
+
+				<div class="product">
+			<div class="product__info">
+				<img class="product__image" src="/Images/Iphone12mini.png" alt="Product 1" />
+				<h3 class="product__title"> Iphone 12 mini  </h3>
+				<span class="product__year extra highlight">Camera - Rear  12 + 12  | Front  12 MP</span>
+				<span class="product__region extra highlight">Display - 5.4 inch</span>
+				<span class="product__varietal extra highlight">Processor - ios</span>
+				<span class="product__alcohol extra highlight">Battery - 2227 mAH</span>
+				<span class="product__alcohol extra highlight">Ram - 4gb</span>
+				<span class="product__price highlight">Rs. 54990 </span>
+
+			</div>
+			<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+		</div>
+
+		<div class="product">
+			<div class="product__info">
+				<img class="product__image" src="/Images/Iphone11pro.png" alt="Product 1" />
+				<h3 class="product__title"> Iphone 11 pro </h3>
+				<span class="product__year extra highlight">Camera - Rear  12 + 12  | Front  12 MP</span>
+				<span class="product__region extra highlight">Display - 5.8 inch</span>
+				<span class="product__varietal extra highlight">Processor - ios</span>
+				<span class="product__alcohol extra highlight">Battery - 3046 mAH</span>
+				<span class="product__alcohol extra highlight">Ram - 4gb</span>
+				<span class="product__price highlight">Rs. 101900 </span>
+
+			</div>
+			<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+		</div>
+
+		<div class="product">
+			<div class="product__info">
+				<img class="product__image" src="/Images/RealmeNarzo50A.png" alt="Product 1" />
+				<h3 class="product__title"> Realme Narzo 50A </h3>
+				<span class="product__year extra highlight">Camera - Rear  50 + 2 + 2 | Front  8 MP</span>
+				<span class="product__region extra highlight">Display - 6.4 inch</span>
+				<span class="product__varietal extra highlight">Processor - octa core</span>
+				<span class="product__alcohol extra highlight">Battery - 6000 mAH</span>
+				<span class="product__alcohol extra highlight">Ram - 6gb</span>
+				<span class="product__price highlight">Rs. 11499 </span>
+
+			</div>
+			<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+		</div>
+
+		<div class="product">
+			<div class="product__info">
+				<img class="product__image" src="/Images/Infinixhot11s.png" alt="Product 1" />
+				<h3 class="product__title"> Infinix Hot 11S </h3>
+				<span class="product__year extra highlight">Camera - Rear  50 + 2 | Front  8 MP</span>
+				<span class="product__region extra highlight">Display - 6.75 inch</span>
+				<span class="product__varietal extra highlight">Processor - octa core</span>
+				<span class="product__alcohol extra highlight">Battery - 5000 mAH</span>
+				<span class="product__alcohol extra highlight">Ram - 4gb</span>
+				<span class="product__price highlight">Rs. 9999 </span>
+
+			</div>
+			<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+		</div>
+
+		<div class="product">
+			<div class="product__info">
+				<img class="product__image" src="/Images/Redmi9a.png" alt="Product 1" />
+				<h3 class="product__title"> Redmi 9i Sport </h3>
+				<span class="product__year extra highlight">Camera - Rear  13 | Front  5 MP</span>
+				<span class="product__region extra highlight">Display - 6.53 inch</span>
+				<span class="product__varietal extra highlight">Processor - octa core</span>
+				<span class="product__alcohol extra highlight">Battery - 5000 mAH</span>
+				<span class="product__alcohol extra highlight">Ram - 6gb</span>
+				<span class="product__price highlight">Rs. 8999 </span>
+
+			</div>
+			<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+		</div>
+
+		<div class="product">
+			<div class="product__info">
+				<img class="product__image" src="/Images/Vivot15g.png" alt="Product 1" />
+				<h3 class="product__title"> Vivo T1 5G </h3>
+				<span class="product__year extra highlight">Camera - Rear  50 + 2 + 2 | Front  16 MP</span>
+				<span class="product__region extra highlight">Display - 6.53 inch</span>
+				<span class="product__varietal extra highlight">Processor - octa core</span>
+				<span class="product__alcohol extra highlight">Battery - 5000 mAH</span>
+				<span class="product__alcohol extra highlight">Ram - 6gb</span>
+				<span class="product__price highlight">Rs. 15990 </span>
+
+			</div>
+			<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+		</div>
+
+		<div class="product">
+			<div class="product__info">
+				<img class="product__image" src="/Images/Realmec20.png" alt="Product 1" />
+				<h3 class="product__title"> Realme C20 </h3>
+				<span class="product__year extra highlight">Camera - Rear  8 | Front  5 MP</span>
+				<span class="product__region extra highlight">Display - 6.5 inch</span>
+				<span class="product__varietal extra highlight">Processor - octa core</span>
+				<span class="product__alcohol extra highlight">Battery - 5000 mAH</span>
+				<span class="product__alcohol extra highlight">Ram - 4gb</span>
+				<span class="product__price highlight">Rs. 7499 </span>
+
+			</div>
+			<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+		</div>
+
+		<div class="product">
+			<div class="product__info">
+				<img class="product__image" src="/Images/Samsungf12.png" alt="Product 1" />
+				<h3 class="product__title"> Samsung Galaxy F12 </h3>
+				<span class="product__year extra highlight">Camera - Rear  48 + 5 + 2 + 2 | Front  8 MP</span>
+				<span class="product__region extra highlight">Display - 6.51 inch</span>
+				<span class="product__varietal extra highlight">Processor - octa core</span>
+				<span class="product__alcohol extra highlight">Battery - 6000 mAH</span>
+				<span class="product__alcohol extra highlight">Ram - 6gb</span>
+				<span class="product__price highlight">Rs. 11499 </span>
+
+			</div>
+			<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+		</div>
+
+		<div class="product">
+			<div class="product__info">
+				<img class="product__image" src="/Images/realmec21y.png" alt="Product 1" />
+				<h3 class="product__title"> Realme C21y </h3>
+				<span class="product__year extra highlight">Camera - Rear  13 + 2 + 2 | Front  5 MP</span>
+				<span class="product__region extra highlight">Display - 6.5 inch</span>
+				<span class="product__varietal extra highlight">Processor - octa core</span>
+				<span class="product__alcohol extra highlight">Battery - 5000 mAH</span>
+				<span class="product__alcohol extra highlight">Ram - 3gb</span>
+				<span class="product__price highlight">Rs. 9499 </span>
+
+			</div>
+			<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+		</div>
+
+		<div class="product">
+			<div class="product__info">
+				<img class="product__image" src="/Images/Nordce5g.png" alt="Product 1" />
+				<h3 class="product__title"> Nord 2 CE 5g </h3>
+				<span class="product__year extra highlight">Camera - Rear  64 + 8 + 2 | Front  16 MP</span>
+				<span class="product__region extra highlight">Display - 6.43 inch</span>
+				<span class="product__varietal extra highlight">Processor - octa core</span>
+				<span class="product__alcohol extra highlight">Battery - 4500 mAH</span>
+				<span class="product__alcohol extra highlight">Ram - 6/8/12 gb</span>
+				<span class="product__price highlight">Rs. 23999 </span>
+
+			</div>
+			<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+		</div>
+
+		<div class="product">
+			<div class="product__info">
+				<img class="product__image" src="/Images/nordce2lite.png" alt="Product 1" />
+				<h3 class="product__title"> Nord CE2 Lite 5g </h3>
+				<span class="product__year extra highlight">Camera - Rear  64 + 8 + 2 | Front  16MP</span>
+				<span class="product__region extra highlight">Display - 6.58 inch</span>
+				<span class="product__varietal extra highlight">Processor - octa core</span>
+				<span class="product__alcohol extra highlight">Battery - 5000 mAH</span>
+				<span class="product__alcohol extra highlight">Ram - 6/8/12 gb</span>
+				<span class="product__price highlight">Rs. 19499 </span>
+
+			</div>
+			<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+		</div>
+
+		<div class="product">
+			<div class="product__info">
+				<img class="product__image" src="/Images/oneplus10pro.png" alt="Product 1" />
+				<h3 class="product__title"> OnePlus 10Pro </h3>
+				<span class="product__year extra highlight">Camera - Rear  50 + 48 + 8 | Front  32MP</span>
+				<span class="product__region extra highlight">Display - 6.7 inch</span>
+				<span class="product__varietal extra highlight">Processor - octa core</span>
+				<span class="product__alcohol extra highlight">Battery - 5000 mAH</span>
+				<span class="product__alcohol extra highlight">Ram - 6/8/12 gb</span>
+				<span class="product__price highlight">Rs. 67990 </span>
+
+			</div>
+			<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+		</div>
+		<div class="product">
+			<div class="product__info">
+				<img class="product__image" src="/Images/oppoa54.png" alt="Product 1" />
+				<h3 class="product__title"> Oppo A54 </h3>
+				<span class="product__year extra highlight">Camera - Rear  13 + 2 + 2 | Front  16MP</span>
+				<span class="product__region extra highlight">Display - 6.51 inch</span>
+				<span class="product__varietal extra highlight">Processor - octa core</span>
+				<span class="product__alcohol extra highlight">Battery - 5000 mAH</span>
+				<span class="product__alcohol extra highlight">Ram - 4/6/8 gb</span>
+				<span class="product__price highlight">Rs. 14990 </span>
+
+			</div>
+			<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+		</div>
+		<div class="product">
+			<div class="product__info">
+				<img class="product__image" src="/Images/pocom4pro.png" alt="Product 1" />
+				<h3 class="product__title"> Poco M4 pro</h3>
+				<span class="product__year extra highlight">Camera - Rear  50 + 8  | Front  16MP</span>
+				<span class="product__region extra highlight">Display - 6.6 inch</span>
+				<span class="product__varietal extra highlight">Processor - octa core</span>
+				<span class="product__alcohol extra highlight">Battery - 5000 mAH</span>
+				<span class="product__alcohol extra highlight">Ram - 4/6 gb</span>
+				<span class="product__price highlight">Rs. 16999 </span>
+
+			</div>
+			<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+		</div>
+
+		<div class="product">
+			<div class="product__info">
+				<img class="product__image" src="/Images/oppoa31.png" alt="Product 1" />
+				<h3 class="product__title"> Oppo A31 </h3>
+				<span class="product__year extra highlight">Camera - Rear  13 + 2 + 2 | Front  16MP</span>
+				<span class="product__region extra highlight">Display - 6.57 inch</span>
+				<span class="product__varietal extra highlight">Processor - octa core</span>
+				<span class="product__alcohol extra highlight">Battery - 5000 mAH</span>
+				<span class="product__alcohol extra highlight">Ram - 4/6 gb</span>
+				<span class="product__price highlight">Rs. 12990 </span>
+
+			</div>
+			<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+		</div>
+
+		<div class="product">
+			<div class="product__info">
+				<img class="product__image" src="/Images/nokia5.4.png" alt="Product 1" />
+				<h3 class="product__title"> Nokia 5.4 </h3>
+				<span class="product__year extra highlight">Camera - Rear  13 + 8 + 5 | Front  16MP</span>
+				<span class="product__region extra highlight">Display - 6.39 inch</span>
+				<span class="product__varietal extra highlight">Processor - octa core</span>
+				<span class="product__alcohol extra highlight">Battery - 5000 mAH</span>
+				<span class="product__alcohol extra highlight">Ram - 6/8 gb</span>
+				<span class="product__price highlight">Rs. 14499 </span>
+
+			</div>
+			<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+		</div>
+
+		<div class="product">
+			<div class="product__info">
+				<img class="product__image" src="/Images/nokia3.4.png" alt="Product 1" />
+				<h3 class="product__title"> Nokia 3.4 </h3>
+				<span class="product__year extra highlight">Camera - Rear  13 + 5 + 3 | Front  16MP</span>
+				<span class="product__region extra highlight">Display - 6.39 inch</span>
+				<span class="product__varietal extra highlight">Processor - octa core</span>
+				<span class="product__alcohol extra highlight">Battery - 4000 mAH</span>
+				<span class="product__alcohol extra highlight">Ram - 4 gb</span>
+				<span class="product__price highlight">Rs. 11499 </span>
+
+			</div>
+			<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+		</div>
+
+		<div class="product">
+			<div class="product__info">
+				<img class="product__image" src="/Images/iqooz55g.png" alt="Product 1" />
+				<h3 class="product__title"> Iqoo Z5 5g </h3>
+				<span class="product__year extra highlight">Camera - Rear  64 + 8 + 2 | Front  16MP</span>
+				<span class="product__region extra highlight">Display - 6.67 inch</span>
+				<span class="product__varietal extra highlight">Processor - octa core</span>
+				<span class="product__alcohol extra highlight">Battery - 3687 mAH</span>
+				<span class="product__alcohol extra highlight">Ram - 6 gb</span>
+				<span class="product__price highlight">Rs. 23990 </span>
+
+			</div>
+			<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+		</div>
+
+		<div class="product">
+			<div class="product__info">
+				<img class="product__image" src="/Images/xiaomi10i.png" alt="Product 1" />
+				<h3 class="product__title"> Xiaomi Mi 10i </h3>
+				<span class="product__year extra highlight">Camera - Rear 108 + 8 + 2 + 2 | Front  16MP</span>
+				<span class="product__region extra highlight">Display - 6.57 inch</span>
+				<span class="product__varietal extra highlight">Processor - snapdragon</span>
+				<span class="product__alcohol extra highlight">Battery - 4820 mAH</span>
+				<span class="product__alcohol extra highlight">Ram - 6/8/12 gb</span>
+				<span class="product__price highlight">Rs. 23799 </span>
+
+			</div>
+			<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+		</div>
+
+		<div class="product">
+			<div class="product__info">
+				<img class="product__image" src="/Images/iqooz3.png" alt="Product 1" />
+				<h3 class="product__title"> Iqoo Z3 </h3>
+				<span class="product__year extra highlight">Camera - Rear 64 + 8 + 2  | Front  16MP</span>
+				<span class="product__region extra highlight">Display - 6.48 inch</span>
+				<span class="product__varietal extra highlight">Processor - snapdragon</span>
+				<span class="product__alcohol extra highlight">Battery - 4400 mAH</span>
+				<span class="product__alcohol extra highlight">Ram - 6/8 gb</span>
+				<span class="product__price highlight">Rs. 17990 </span>
+
+			</div>
+			<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+		</div>
+
+		<div class="product">
+			<div class="product__info">
+				<img class="product__image" src="/Images/redminote10.png" alt="Product 1" />
+				<h3 class="product__title"> Redmi Note 10 </h3>
+				<span class="product__year extra highlight">Camera - Rear 108 + 8 + 5 + 2  | Front  16MP</span>
+				<span class="product__region extra highlight">Display - 6.67 inch</span>
+				<span class="product__varietal extra highlight">Processor - snapdragon 732</span>
+				<span class="product__alcohol extra highlight">Battery - 5020 mAH</span>
+				<span class="product__alcohol extra highlight">Ram - 6/8/12 gb</span>
+				<span class="product__price highlight">Rs. 22099 </span>
+
+			</div>
+			<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+		</div>
+		<div class="product">
+			<div class="product__info">
+				<img class="product__image" src="/Images/redmi9prime.png" alt="Product 1" />
+				<h3 class="product__title"> Redmi 9 Prime </h3>
+				<span class="product__year extra highlight">Camera - Rear 13 + 8 + 5 | Front  16MP</span>
+				<span class="product__region extra highlight">Display - 6.53 inch</span>
+				<span class="product__varietal extra highlight">Processor - octa core</span>
+				<span class="product__alcohol extra highlight">Battery - 4400 mAH</span>
+				<span class="product__alcohol extra highlight">Ram - 6/8 gb</span>
+				<span class="product__price highlight">Rs. 9990 </span>
+
+			</div>
+			<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+		</div>
+
+		<div class="product">
+			<div class="product__info">
+				<img class="product__image" src="/Images/vivov235g.png" alt="Product 1" />
+				<h3 class="product__title"> Vivo V23 5G </h3>
+				<span class="product__year extra highlight">Camera - Rear 64 + 8 + 2  | Front  16MP</span>
+				<span class="product__region extra highlight">Display - 6.64 inch</span>
+				<span class="product__varietal extra highlight">Processor - octa core</span>
+				<span class="product__alcohol extra highlight">Battery - 4200 mAH</span>
+				<span class="product__alcohol extra highlight">Ram - 6/8 gb</span>
+				<span class="product__price highlight">Rs. 29990 </span>
+
+			</div>
+			<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+		</div>
+		<div class="product">
+			<div class="product__info">
+				<img class="product__image" src="/Images/vivoy21.png" alt="Product 1" />
+				<h3 class="product__title"> Vivo Y21 </h3>
+				<span class="product__year extra highlight">Camera - Rear 13 + 2 | Front  8MP</span>
+				<span class="product__region extra highlight">Display - 6.51 inch</span>
+				<span class="product__varietal extra highlight">Processor - octa core</span>
+				<span class="product__alcohol extra highlight">Battery - 5000 mAH</span>
+				<span class="product__alcohol extra highlight">Ram - 4/6 gb</span>
+				<span class="product__price highlight">Rs. 13990 </span>
+
+			</div>
+			<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+		</div>
+
+		<div class="product">
+			<div class="product__info">
+				<img class="product__image" src="/Images/micromaxnote1.png" alt="Product 1" />
+				<h3 class="product__title"> Micromax Note 1 </h3>
+				<span class="product__year extra highlight">Camera - Rear 48 + 5 + 2 + 2  | Front  16MP</span>
+				<span class="product__region extra highlight">Display - 6.67 inch</span>
+				<span class="product__varietal extra highlight">Processor - octa core</span>
+				<span class="product__alcohol extra highlight">Battery - 5000 mAH</span>
+				<span class="product__alcohol extra highlight">Ram - 4/6 gb</span>
+				<span class="product__price highlight">Rs. 10990 </span>
+
+			</div>
+			<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+		</div>
+		<div class="product">
+			<div class="product__info">
+				<img class="product__image" src="/Images/oneplus9.png" alt="Product 1" />
+				<h3 class="product__title"> OnePlus 9 </h3>
+				<span class="product__year extra highlight">Camera - Rear 48 + 50 + 2  | Front  16MP</span>
+				<span class="product__region extra highlight">Display - 6.65 inch</span>
+				<span class="product__varietal extra highlight">Processor - snapdragon 888</span>
+				<span class="product__alcohol extra highlight">Battery - 4500 mAH</span>
+				<span class="product__alcohol extra highlight">Ram - 6/8/12 gb</span>
+				<span class="product__price highlight">Rs. 44999 </span>
+
+			</div>
+			<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+		</div>
+
+		<div class="product">
+			<div class="product__info">
+				<img class="product__image" src="/Images/oneplus9r.png" alt="Product 1" />
+				<h3 class="product__title"> Oneplus 9r </h3>
+				<span class="product__year extra highlight">Camera - Rear 48 + 16 + 5 + 2 | Front  16MP</span>
+				<span class="product__region extra highlight">Display - 6.67 inch</span>
+				<span class="product__varietal extra highlight">Processor - snapdragon 870</span>
+				<span class="product__alcohol extra highlight">Battery - 4500 mAH</span>
+				<span class="product__alcohol extra highlight">Ram - 6/8/12 gb</span>
+				<span class="product__price highlight">Rs. 33999 </span>
+
+			</div>
+			<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+		</div>
+
+		<div class="product">
+			<div class="product__info">
+				<img class="product__image" src="/Images/oneplus9rt.png" alt="Product 1" />
+				<h3 class="product__title"> OnePlus 9 RT </h3>
+				<span class="product__year extra highlight">Camera - Rear 50 + 16 + 2  | Front  16MP</span>
+				<span class="product__region extra highlight">Display - 6.62 inch</span>
+				<span class="product__varietal extra highlight">Processor - snapdragon 883 </span>
+				<span class="product__alcohol extra highlight">Battery - 4500 mAH</span>
+				<span class="product__alcohol extra highlight">Ram - 6/8/12 gb</span>
+				<span class="product__price highlight">Rs. 42999 </span>
+
+			</div>
+			<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+		</div>
+
+		<div class="product">
+			<div class="product__info">
+				<img class="product__image" src="/Images/vivox60proplus.png" alt="Product 1" />
+				<h3 class="product__title"> Vivo X60 Pro PLus </h3>
+				<span class="product__year extra highlight">Camera - Rear 50 + 48 + 32 + 8 | Front  32MP</span>
+				<span class="product__region extra highlight">Display - 6.56 inch</span>
+				<span class="product__varietal extra highlight">Processor - octa</span>
+				<span class="product__alcohol extra highlight">Battery - 4200 mAH</span>
+				<span class="product__alcohol extra highlight">Ram - 6/8/12 gb</span>
+				<span class="product__price highlight">Rs. 69990 </span>
+
+			</div>
+			<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+		</div>
+
+		<div class="product">
+			<div class="product__info">
+				<img class="product__image" src="/Images/realmegtneo2.png" alt="Product 1" />
+				<h3 class="product__title"> Realme GT Neo 2 5G </h3>
+				<span class="product__year extra highlight">Camera - Rear 64 + 8 + 2  | Front  16MP</span>
+				<span class="product__region extra highlight">Display - 6.62 inch</span>
+				<span class="product__varietal extra highlight">Processor - octa</span>
+				<span class="product__alcohol extra highlight">Battery - 5000 mAH</span>
+				<span class="product__alcohol extra highlight">Ram - 6/8 gb</span>
+				<span class="product__price highlight">Rs. 31999 </span>
+
+			</div>
+			<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+		</div>
+
+		<div class="product">
+			<div class="product__info">
+				<img class="product__image" src="/Images/realmegtneo3.png" alt="Product 1" />
+				<h3 class="product__title"> Realme GT Neo 3 5G </h3>
+				<span class="product__year extra highlight">Camera - Rear 50 + 8 + 2  | Front  16MP</span>
+				<span class="product__region extra highlight">Display - 6.7 inch</span>
+				<span class="product__varietal extra highlight">Processor - octa</span>
+				<span class="product__alcohol extra highlight">Battery - 5000 mAH</span>
+				<span class="product__alcohol extra highlight">Ram - 6/8 gb</span>
+				<span class="product__price highlight">Rs. 36999 </span>
+
+			</div>
+			<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+		</div>
+
+		<div class="product">
+			<div class="product__info">
+				<img class="product__image" src="/Images/realmexsmax.png" alt="Product 1" />
+				<h3 class="product__title"> Realme XS Max </h3>
+				<span class="product__year extra highlight">Camera - Rear 64 + 8 + 2  | Front  16MP</span>
+				<span class="product__region extra highlight">Display - 6.43 inch</span>
+				<span class="product__varietal extra highlight">Processor - octa core</span>
+				<span class="product__alcohol extra highlight">Battery - 4500 mAH</span>
+				<span class="product__alcohol extra highlight">Ram - 6/8 gb</span>
+				<span class="product__price highlight">Rs. 27990 </span>
+
+			</div>
+			<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+		</div>
+
+		<div class="product">
+			<div class="product__info">
+				<img class="product__image" src="/Images/realmegtneo2.png" alt="Product 1" />
+				<h3 class="product__title"> Realme GT Neo 2 5G </h3>
+				<span class="product__year extra highlight">Camera - Rear 64 + 8 + 2  | Front  16MP</span>
+				<span class="product__region extra highlight">Display - 6.62 inch</span>
+				<span class="product__varietal extra highlight">Processor - octa</span>
+				<span class="product__alcohol extra highlight">Battery - 5000 mAH</span>
+				<span class="product__alcohol extra highlight">Ram - 6/8 gb</span>
+				<span class="product__price highlight">Rs. 31999 </span>
+
+			</div>
+			<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+		</div>
+		<div class="product">
+			<div class="product__info">
+				<img class="product__image" src="/Images/samsungm53.png" alt="Product 1" />
+				<h3 class="product__title"> Samsung M53 </h3>
+				<span class="product__year extra highlight">Camera - Rear 108 + 8 + 5 + 2  | Front  16MP</span>
+				<span class="product__region extra highlight">Display - 6.7 inch</span>
+				<span class="product__varietal extra highlight">Processor - octa</span>
+				<span class="product__alcohol extra highlight">Battery - 5000 mAH</span>
+				<span class="product__alcohol extra highlight">Ram - 6/8 gb</span>
+				<span class="product__price highlight">Rs. 26499 </span>
+
+			</div>
+			<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+		</div>
+
+		<div class="product">
+			<div class="product__info">
+				<img class="product__image" src="/Images/oppoa15s.png" alt="Product 1" />
+				<h3 class="product__title"> Oppo A15 S </h3>
+				<span class="product__year extra highlight">Camera - Rear 13 + 2 + 2  | Front  16MP</span>
+				<span class="product__region extra highlight">Display - 6.52 inch</span>
+				<span class="product__varietal extra highlight">Processor - octa</span>
+				<span class="product__alcohol extra highlight">Battery - 4230 mAH</span>
+				<span class="product__alcohol extra highlight">Ram - 6/8 gb</span>
+				<span class="product__price highlight">Rs. 10990 </span>
+
+			</div>
+			<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+		</div>
+			</section>
+		</div><!-- /view -->
+		<!-- product compare wrapper -->
+		<section class="compare">
+			<button class="action action--close"><i class="fa fa-remove"></i><span class="action__text action__text--invisible">Close comparison overlay</span></button>
+		</section>
+		<script src="js/classie.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
